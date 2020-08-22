@@ -16,7 +16,7 @@ class Test_004_SearchCustomerByEmail:
     password = ReadConfig.getPassword()
     logger = LogGen.loggen()
 
-
+    @pytest.mark.sanity
     @pytest.mark.regression
     def test_SearchCustomerByEmail(self,setup):
 
